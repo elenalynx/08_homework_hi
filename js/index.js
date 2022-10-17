@@ -13,7 +13,6 @@ do {
     hours = prompt(askHours);
 } while (hours === null || isNaN(+hours) || +hours === 0)
 
-alert(typeof hours);
 seconds = hours * 3600;
 answerMessage = `At ${hours} hours ${seconds} seconds`;
 
